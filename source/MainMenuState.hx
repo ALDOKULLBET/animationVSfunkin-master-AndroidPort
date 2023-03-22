@@ -262,6 +262,10 @@ class MainMenuState extends MusicBeatState
 		text.scrollFactor.set();
 		add(text); //XD*/
 
+                #if android
+                addVirtualpad(UP_DOWN, A,B);
+                #end
+
 		super.create();
 	}
 
