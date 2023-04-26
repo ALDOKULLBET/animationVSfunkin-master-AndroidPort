@@ -54,6 +54,7 @@ jobs:
           haxelib --quiet install flixel-ui
           haxelib --quiet install hscript
           haxelib --quiet install newgrounds
+          haxelib git linc_luajit https://github.com/Sirox228/linc_luajit
           haxelib --quiet git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools.git
           haxelib list
 
